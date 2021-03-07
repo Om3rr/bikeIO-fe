@@ -1,11 +1,11 @@
-const API = "http://localhost:3000/bikeapi"
+const API = process.env.REACT_APP_API_URL || "http://localhost:3000/bikeapi"
 const UPLOAD_FILE = API + "/files"
 const REGISTER_BIKES = API + "/bike"
 const SEARCH = API + "/bike"
 
 const performApi = async (path, params = {}) => {
     try {
-        const recaptcha_token = await window.grecaptcha.execute('6Lf2enQaAAAAANrscy5B6c7uY5ZQNa87gUfq3vgN', {action: path.replace(API, '')})
+        const recaptcha_token = await window.grecaptcha.execute(process.env.REACT_APP_RECAPTCHA_SITE_URL, {action: path.replace(API, '')})
         return await fetch(path, {...params, headers: {...(params.headers || {}), "x-token": recaptcha_token}})
     } catch (e) {
         console.error(e)
