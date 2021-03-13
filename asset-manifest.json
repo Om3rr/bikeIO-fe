@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bikeIO-fe/static/css/main.e89da773.chunk.css",
-    "main.js": "/bikeIO-fe/static/js/main.ed879425.chunk.js",
-    "main.js.map": "/bikeIO-fe/static/js/main.ed879425.chunk.js.map",
+    "main.js": "/bikeIO-fe/static/js/main.4af75f69.chunk.js",
+    "main.js.map": "/bikeIO-fe/static/js/main.4af75f69.chunk.js.map",
     "runtime-main.js": "/bikeIO-fe/static/js/runtime-main.1aafe5fd.js",
     "runtime-main.js.map": "/bikeIO-fe/static/js/runtime-main.1aafe5fd.js.map",
     "static/js/2.f7c5110e.chunk.js": "/bikeIO-fe/static/js/2.f7c5110e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1aafe5fd.js",
     "static/js/2.f7c5110e.chunk.js",
     "static/css/main.e89da773.chunk.css",
-    "static/js/main.ed879425.chunk.js"
+    "static/js/main.4af75f69.chunk.js"
   ]
 }
