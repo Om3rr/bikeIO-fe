@@ -8,7 +8,8 @@ import messages_en from "./translations/en.json";
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 const messages = {
-    'en': messages_en
+    'en': messages_en,
+    'he': messages_en,
 };
 const language = navigator.language.split(/[-_]/)[0];
 

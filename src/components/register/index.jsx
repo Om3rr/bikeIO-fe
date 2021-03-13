@@ -30,15 +30,15 @@ const renderField = ({control, errors, t, name, label, rules}) => (
 
 const Register = ({history}) => {
     const defaultValues = {
-        firstName: "omer",
-        lastName: "shacham",
-        phone: "0506652800",
-        secondary_phone: "0506652800",
-        city: "tel aviv",
-        bike_id: "1234",
-        brand: "trek",
-        color: "white",
-        acceptedTerms: true,
+        // firstName: "omer",
+        // lastName: "shacham",
+        // phone: "0506652800",
+        // secondary_phone: "0506652800",
+        // city: "tel aviv",
+        // bike_id: "1234",
+        // brand: "trek",
+        // color: "white",
+        // acceptedTerms: true,
 
     }
     const {register, handleSubmit, errors, reset, formState, setError, control} = useForm({defaultValues});
