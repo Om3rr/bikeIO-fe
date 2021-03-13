@@ -1,0 +1,1 @@
+.App{height:100vh}.myDropZone{height:100px;border-radius:10px;border:1px solid;justify-content:center;align-items:center}.formFields,.myDropZone{width:90%;margin:10px auto;display:flex}.formFields{height:100%;flex-direction:column}.formFields>div{flex:0 0 auto}.formFields>.spacer{flex:1 0 auto}.formFields>.formField{margin:3px 0}form{height:90%}

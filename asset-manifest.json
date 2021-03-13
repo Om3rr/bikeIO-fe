@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/bikeIO-fe/static/css/main.e89da773.chunk.css",
-    "main.js": "/bikeIO-fe/static/js/main.1d19e620.chunk.js",
-    "main.js.map": "/bikeIO-fe/static/js/main.1d19e620.chunk.js.map",
+    "main.css": "/bikeIO-fe/static/css/main.9ca4f19d.chunk.css",
+    "main.js": "/bikeIO-fe/static/js/main.af0c0371.chunk.js",
     "runtime-main.js": "/bikeIO-fe/static/js/runtime-main.1aafe5fd.js",
-    "runtime-main.js.map": "/bikeIO-fe/static/js/runtime-main.1aafe5fd.js.map",
     "static/js/2.f7c5110e.chunk.js": "/bikeIO-fe/static/js/2.f7c5110e.chunk.js",
-    "static/js/2.f7c5110e.chunk.js.map": "/bikeIO-fe/static/js/2.f7c5110e.chunk.js.map",
     "static/js/3.fe37ab38.chunk.js": "/bikeIO-fe/static/js/3.fe37ab38.chunk.js",
-    "static/js/3.fe37ab38.chunk.js.map": "/bikeIO-fe/static/js/3.fe37ab38.chunk.js.map",
     "index.html": "/bikeIO-fe/index.html",
-    "static/css/main.e89da773.chunk.css.map": "/bikeIO-fe/static/css/main.e89da773.chunk.css.map",
     "static/js/2.f7c5110e.chunk.js.LICENSE.txt": "/bikeIO-fe/static/js/2.f7c5110e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1aafe5fd.js",
     "static/js/2.f7c5110e.chunk.js",
-    "static/css/main.e89da773.chunk.css",
-    "static/js/main.1d19e620.chunk.js"
+    "static/css/main.9ca4f19d.chunk.css",
+    "static/js/main.af0c0371.chunk.js"
   ]
 }
