@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bikeIO-fe/static/css/main.9ca4f19d.chunk.css",
-    "main.js": "/bikeIO-fe/static/js/main.b603f678.chunk.js",
+    "main.js": "/bikeIO-fe/static/js/main.0a9af21d.chunk.js",
     "runtime-main.js": "/bikeIO-fe/static/js/runtime-main.1aafe5fd.js",
-    "static/js/2.f7c5110e.chunk.js": "/bikeIO-fe/static/js/2.f7c5110e.chunk.js",
+    "static/js/2.79b83711.chunk.js": "/bikeIO-fe/static/js/2.79b83711.chunk.js",
     "static/js/3.fe37ab38.chunk.js": "/bikeIO-fe/static/js/3.fe37ab38.chunk.js",
     "index.html": "/bikeIO-fe/index.html",
-    "static/js/2.f7c5110e.chunk.js.LICENSE.txt": "/bikeIO-fe/static/js/2.f7c5110e.chunk.js.LICENSE.txt"
+    "static/js/2.79b83711.chunk.js.LICENSE.txt": "/bikeIO-fe/static/js/2.79b83711.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1aafe5fd.js",
-    "static/js/2.f7c5110e.chunk.js",
+    "static/js/2.79b83711.chunk.js",
     "static/css/main.9ca4f19d.chunk.css",
-    "static/js/main.b603f678.chunk.js"
+    "static/js/main.0a9af21d.chunk.js"
   ]
 }
