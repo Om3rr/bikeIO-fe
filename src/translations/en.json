@@ -32,11 +32,13 @@
   "register.terms.title": "Accept terms",
   "register.terms.required": "Required",
   "dropzone.helper": "Drop files here or click to open your finder",
+  "button.submit": "Submit",
   "result.firstName": "First Name",
   "result.lastName": "Last Name",
   "result.brand": "Brand",
   "result.color": "Color",
   "result.bike_id": "Serial Number",
   "result.phone": "Phone number",
-  "result.secondaryPhone": "Secondary Phone Number"
+  "result.secondaryPhone": "Secondary Phone Number",
+  "button.search": "Search"
 }

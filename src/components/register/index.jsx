@@ -163,7 +163,7 @@ const Register = ({history}) => {
             <div>
                 <Button variant="contained" fullWidth color="primary" disabled={isSubmitting}
                         type="submit">
-                    Submit
+                    {t({id: "button.submit"})}
                 </Button>
             </div>
         </div>

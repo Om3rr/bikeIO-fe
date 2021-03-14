@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {IntlProvider} from "react-intl";
 import messages_en from "./translations/en.json";
+import messages_he from "./translations/he.json";
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 const messages = {
     'en': messages_en,
-    'he': messages_en,
+    'he': messages_he,
 };
 const language = navigator.language.split(/[-_]/)[0];
 

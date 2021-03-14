@@ -4,6 +4,7 @@ console.log("API: ", API)
 const UPLOAD_FILE = API + "/files"
 const REGISTER_BIKES = API + "/bike"
 const SEARCH = API + "/bike"
+const WAKEUP = API + "/wakeup"
 
 const performApi = async (path, params = {}) => {
     try {
@@ -12,8 +13,14 @@ const performApi = async (path, params = {}) => {
     } catch (e) {
         console.error(e)
     }
+}
 
+export const wakeUpServer = async () => {
+    try {
+        await fetch(WAKEUP, {})
+    } catch(e) {
 
+    }
 }
 export const uploadFile = async (file) => {
     try {

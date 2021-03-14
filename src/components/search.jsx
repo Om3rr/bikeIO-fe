@@ -63,7 +63,7 @@ const Search = (props) => {
     return (
         <div className={classes.root}>
             <div className={classes.searchRoot}>
-                <TextField className={classes.searchInput} label="Bike Serial Number"
+                <TextField className={classes.searchInput} label={t({id: "register.bike_id.title"})}
                            error={!!searchError}
                            helperText={searchError}
                            onChange={(e) => onBikeId(e.target.value)} value={bikeId}/>
@@ -71,7 +71,7 @@ const Search = (props) => {
                     <Button className={classes.searchButton} variant="contained" fullWidth color="primary"
                             disabled={loading}
                             onClick={onSearch}>
-                        {"Search!"}
+                        {t({id: "button.search"})}
                     </Button>
                     {loading && <CircularProgress size={24} className={classes.buttonProgress}/>}
                 </div>

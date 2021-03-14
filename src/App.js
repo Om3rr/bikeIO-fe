@@ -12,9 +12,11 @@ import Search from "./components/search";
 import Home from "./components/home";
 import Navigation from "./components/navigation";
 import SuccessComponent from "./components/success";
+import {wakeUpServer} from "./clients/apiClient";
 
 
 function App() {
+    wakeUpServer().then(() => {})
     return (
         <div>
             <Router>
@@ -24,7 +26,7 @@ function App() {
                         <Route path="/success" component={SuccessComponent}/>
                         <Route path="/register" component={Register}/>
                         <Route path="/search" component={Search}/>
-                        <Route component={Home}/>
+                        <Route component={Register}/>
                     </Switch>
                 </div>
             </Router>
